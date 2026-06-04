@@ -1,5 +1,3 @@
-javascript:(function () {
-
 try {
 
 const host = window.location.hostname.toLowerCase();
@@ -649,5 +647,3 @@ X4Menu.mount();
 } catch (err) {
   alert("X4 failed:\n" + err.message);
 }
-
-})(); 
